@@ -1,0 +1,27 @@
+{
+  "name": "<%= packageName %>",
+  "version": "<%= packageVersion %>",
+  "description": "<%= packageDesc %>",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenQuest/<%= packageName %>.git"
+  },
+  "keywords": [<%- packageKeyword%>],
+  "author": "lingshanjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenQuest/<%= packageName %>/issues"
+  },
+  "homepage": "https://github.com/OpenQuest/<%= packageName %>#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-strip-comments": "^2.4.3",
+    "mocha": "^3.2.0"
+  }
+}

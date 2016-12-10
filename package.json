@@ -1,0 +1,27 @@
+{
+  "name": "generator-openquest",
+  "version": "1.0.0",
+  "description": "A yeoman generator for Open Quest organization.",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": ["app"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenQuest/generator-openquest.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "OpenQuest"
+  ],
+  "author": "lingshanjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenQuest/generator-openquest/issues"
+  },
+  "homepage": "https://github.com/OpenQuest/generator-openquest#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.24.1"
+  }
+}
